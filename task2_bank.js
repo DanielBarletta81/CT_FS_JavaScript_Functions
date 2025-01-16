@@ -28,3 +28,21 @@ console.log(withdraw(150))
 //Lastly, show much much money you have left.
 
 
+
+function calculateBalance(transactionAmount){
+    let currentBalance = 1000;
+
+    if (transactionAmount) {
+    currentBalance + transactionAmount;
+
+    return currentBalance;
+
+    } else {
+        console.log("Please enter a valid amount.")
+    }
+
+
+
+}
+const getBalance = calculateBalance(transactionAmount);
+console.log(`Current Balance: ${getBalance}`)
